@@ -1,0 +1,66 @@
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.auth-card {
+    height: 340px;
+    max-width: 300px;
+    border: 1px solid rgb(194, 188, 188);
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+
+@media (max-width: 550px) {
+    .auth-card {
+        margin: 15px;
+        height: 360px;
+    }
+}
+
+.auth-card header {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.auth-card p.sub {
+    margin-top: -15px;
+    font-size: 14px;
+    color: grey;
+}
+
+.auth-card input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.auth-card button.submit {
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    width: 96%;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.loginWithSocial {
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.loginWithSocial sub {
+    color: grey;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0 10px 0;
+}
