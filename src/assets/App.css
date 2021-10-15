@@ -1,3 +1,67 @@
 body {
     margin: 0;
+    width: 100vw;
+}
+
+.App {
+    width: 100vw;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 25px 0 25px 0; 
+}
+
+nav header {
+    padding-left: 25px;
+}
+
+nav div {
+    /* margin-top: -10px; */
+    padding-right: 50px;
+}
+
+@media (max-width: 550px) {
+    nav div {
+        padding-right: 25px;
+    }
+}
+
+#menu {
+    position: absolute;
+    width: 130px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px 0 grey;
+    border-radius: 4px;
+    right: 20px;
+    top: 55px;
+    padding: 15px;
+    padding-top: 9px;
+    z-index: 99;
+}
+
+#menu div {
+    padding: 10px 0 3px 0;
+
+}
+
+#menu div:hover {
+    background-color: #ddd8d8;
+    border-radius: 3px;
+}
+
+#menu span.text {
+    position: relative;
+    bottom: 6px;
+    left: 6px;
+}
+
+p.error {
+    margin: 0;
+    margin-bottom: 5px;
+    color: red;
 }
