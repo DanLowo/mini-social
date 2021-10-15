@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoogleLogin } from 'react-google-login';
 import { useDispatch } from 'react-redux'
+import { clientId } from '../env';
 import { login, register } from '../store/user';
 
 const SocialAuth = ({ type }) => {
@@ -24,7 +25,7 @@ const SocialAuth = ({ type }) => {
 
     return (
         <GoogleLogin
-        clientId="542238092713-e1sgj23i345t255a71j0ps5je4rn58fl.apps.googleusercontent.com"
+        clientId={clientId || process.env.clientId }
         // render={renderProps => (
         //   <button onClick={renderProps.onClick} disabled={renderProps.disabled}>This is my custom Google button</button>
         // )}
