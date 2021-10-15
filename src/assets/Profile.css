@@ -1,0 +1,155 @@
+#profile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#profile h1.header {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.profile-section {
+    margin-top: 30px;
+    padding: 25px 0 0px 0;
+    width: 700px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+@media (max-width: 550px) {
+    .profile-section {
+        width: 100%;
+    }
+}
+
+.edit-profile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 15px 25px;
+}
+
+.edit-profile h4 {
+    margin: 0;
+}
+
+.edit-profile button {
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 70px;
+    height: 30px;
+}
+
+.profile-detail {
+    display: flex;
+    padding: 5px 25px 0px 25px;
+    border-bottom: 1px solid rgb(189, 181, 181);
+    justify-content: space-between;
+}
+
+section#last {
+    border-bottom: 0;
+}
+
+.profile-detail h4 {
+    color: gray;
+}
+
+.profile-detail p {
+    font-size: 15px;
+}
+
+.profile-detail img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Edit profile styles */
+#edit-profile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.edit-section {
+    margin-top: 30px;
+    padding: 25px;
+    width: 700px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+.edit-section h4 {
+    margin: 0;
+}
+
+.edit-section sub {
+    color: grey;
+}
+
+.edit-profile-img {
+    margin-top: 30px;
+}
+
+.edit-profile-img label {
+    display: inline !important;
+}
+
+.edit-profile-img span.material-icons {
+    margin-right: 20px;
+    font-size: 60px;
+}
+
+.edit-profile-img span.text {
+    position: relative;
+    bottom: 27px;
+    color: grey;
+}
+
+#edit-profile form {
+    padding-top: 30px;
+}
+
+#edit-profile label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+#edit-profile input {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.edit-section button.submit {
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    width: 96%;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+@media (max-width: 550px) {
+    .edit-section {
+        width: 80%;
+    }
+    #edit-profile input {
+        width: 90%;
+    }
+}
