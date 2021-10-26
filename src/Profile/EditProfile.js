@@ -60,7 +60,7 @@ const EditProfile = () => {
                         <InputField type="number" placeholder={user.phone || "Phone Number"} label="Phone" setText={setPhone} />
                         <InputField type="email" placeholder={user.email || "Email Address"} label="Email" setText={setEmail} />
                         <InputField type="password" placeholder="Password" label="Password" setText={setPassword} />
-                        <button disabled={loading} type="submit" className="submit">Login</button>
+                        <button disabled={loading} type="submit" className="submit">Update Profile</button>
                     </form>
                 </div>
         </div>
