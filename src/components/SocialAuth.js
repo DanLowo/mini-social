@@ -25,10 +25,7 @@ const SocialAuth = ({ type }) => {
 
     return (
         <GoogleLogin
-        clientId={clientId || process.env.clientId }
-        // render={renderProps => (
-        //   <button onClick={renderProps.onClick} disabled={renderProps.disabled}>This is my custom Google button</button>
-        // )}
+        clientId={process.env.clientId || clientId}
         buttonText="Login"
         onSuccess={responseGoogle}
         onFailure={() => console.log('Google Auth Failed')}
